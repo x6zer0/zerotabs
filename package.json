@@ -1,0 +1,25 @@
+{
+  "name": "dandadanstartpage",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ./src",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "devDependencies": {
+    "@pretty-cozy/eslint-config": "^0.4.0",
+    "vite": "^5.4.11"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@pretty-cozy/eslint-config/base"
+    ],
+    "env": {
+      "browser": true
+    }
+  }
+}
